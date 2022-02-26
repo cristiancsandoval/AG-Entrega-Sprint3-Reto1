@@ -1,0 +1,39 @@
+/*DOCUMENTO PRINCIPAL DE ESTILOS*/
+
+/*Importación de fuentes*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway&display=swap');
+
+/*Variables*/
+:root{
+  --dark-blue: hsl(217, 28%, 15%);
+  --dark-blue-bg: hsl(218, 28%, 13%);
+  --dark-blue-ft: hsl(216, 53%, 9%);
+  --dark-blue-ts: hsl(219, 30%, 18%);
+  --cyan: hsl(176, 68%, 64%);
+  --blue: hsl(198, 60%, 50%);
+  --light-red: hsl(0, 100%, 63%);
+  --raleway: 'Raleway', sans-serif;
+  --open-sans: 'Open Sans', sans-serif;
+  --white: hsl(0, 0%, 100%);
+}
+
+/*Reseteo de estilos*/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 14px;
+  background-color: var(--dark-blue);
+  scroll-behavior: smooth;
+}
+
+.app{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  scroll-behavior: smooth;
+}
