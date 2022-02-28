@@ -341,12 +341,13 @@ export const SignUpSt = styled.section`
                 font-weight: 700;
                 color: hsl(0, 100%, 63%);
                 position: absolute;
-                bottom: 0;
-                translate: 0 -27px;
+                bottom: 27px;
+                -webkit-transition: all 0.3s ease-out;
+                -o-transition: all 0.3s ease-out;
                 transition: all 0.3s ease-out;
                 visibility: hidden;
                 &.alerta{
-                    translate: 0;
+                    bottom: 0;
                     visibility: visible;
                 }
             }
